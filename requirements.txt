@@ -3,4 +3,7 @@ gunicorn==20.1.0  # Needed for deploying to platforms like Render/Heroku
 Flask
 flask-cors
 python-dotenv
+phi
+yfinance
+
 
