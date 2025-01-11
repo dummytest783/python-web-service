@@ -1,5 +1,7 @@
 services:
   - type: web
-    name: your-service-name
+    name: stock-analyzer-service
     env: python
-    runtime: python-3.10
+    runtime: python-3.10.9
+    buildCommand: ""
+    startCommand: gunicorn app:app
